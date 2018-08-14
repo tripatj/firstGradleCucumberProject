@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="validate" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-14T20:04:54" hostname="sys" time="42.646">
+  <properties/>
+  <testcase name="Sceanario1" classname="validate" time="42.646"/>
+  <system-out><![CDATA[https://orangehrm-demo-6x.orangehrmlive.com/auth/login
+    ?[32mGiven ?[0m?[32mLaunch application "?[0m?[32m?[1mhttps://orangehrm-demo-6x.orangehrmlive.com/auth/login?[0m?[32m"?[0m ?[90m# StepDefinations.launch_application(String)?[0m
+    ?[32mWhen ?[0m?[32mEnter userName "?[0m?[32m?[1madmin?[0m?[32m"?[0m                                                       ?[90m# StepDefinations.enter_username_something(String)?[0m
+    ?[32mThen ?[0m?[32mEnter pwdName "?[0m?[32m?[1madmin123?[0m?[32m"?[0m                                                     ?[90m# StepDefinations.enter_pwdname_something(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 23121
+Only local connections are allowed.
+Aug 15, 2018 1:35:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
